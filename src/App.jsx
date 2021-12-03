@@ -28,6 +28,7 @@ function App() {
 
   return (
     <main className="App">
+      {/* Jika data state ada munculkan jika tidak loading */}
       {stateData ? (
         stateData?.map((e, i) => {
           return (
